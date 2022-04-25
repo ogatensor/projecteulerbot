@@ -19,7 +19,7 @@ async function getDailyProblem() {
        //console.log(problem.data); 
        const dom = new JSDOM(problem.data); 
        let desc = dom.window.document.getElementsByClassName("problem_content");
-       CD console.log(desc[0].innerHTML);
+       console.log(desc[0].innerHTML);
      
    }); 
 }
