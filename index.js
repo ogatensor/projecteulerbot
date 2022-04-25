@@ -9,8 +9,8 @@ async function main() {
 }
 
 async function getDailyProblem() { 
-   // choose a random problem number between the values or 1-700. 
-   let number = Math.floor(Math.random() * 700); 
+   // choose a random problem number between the values or 1-785. 
+   let number = Math.floor(Math.random() * 785); 
    
 // retrieve problem from ProjectEuler
      console.log(`(@___@)/kimikoProblemBotv1:
