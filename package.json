@@ -1,7 +1,8 @@
 {
   "name": "my-node-app-6",
   "version": "1.0.0",
-  "dependencies": {
-
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.26.1"
   }
 }
