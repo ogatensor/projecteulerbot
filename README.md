@@ -1,4 +1,27 @@
 ## projecteulerbot 
+This bot generates daily competitive programming/faang interview style problem sets. 
+
+Ideally this will be extended to a more comprehensive app that ramps up users based on pedagogical best practices. 
+
+Current problem sources supported: 
+projecteuler.net  
+atcoder.jp
+
+### TODO:
+hackerrank 
+educative 
+custom archivals 
+topcoder SRM mathes 
+editorial support 
+extra things
+
+## Configuration 
+
+Currently 8 problems will be in a set of problems all though you can set the amount generated manually by doing the following in your local envioronment 
+
+`export CUSTOM_PROBLEM_SET_LENTH = <insert desired amount of problems per problem set as a positive integer. Max is 64 problems per set.>`
+
+More custom configuration options to be added. 
 
 ## installation 
 ```
