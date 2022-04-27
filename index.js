@@ -40,6 +40,7 @@ server.get(`/problems/random/atcoder`, async (req, res) => {
     console.log(`(@___@)/kimikoProblemBotv1:
     [RunningTask] => Fetching AtCoder.jp Problem: # ${contestPath}`);
     const p = await axios.get(`${url}`);
+    problemSet.push(p);
     res.send(p.data);
   } catch (error) {
     res.status(500).json({message: error.message});
