@@ -4,16 +4,16 @@ This bot generates daily competitive programming/faang interview style problem s
 Ideally this will be extended to a more comprehensive app that ramps up users based on pedagogical best practices. 
 
 Current problem sources supported: 
-projecteuler.net  
-atcoder.jp
+* projecteuler.net  
+* atcoder.jp
 
 ### TODO:
-hackerrank 
-educative 
-custom archivals 
-topcoder SRM mathes 
-editorial support 
-extra things
+* hackerrank 
+* educative 
+* custom archivals 
+* topcoder SRM mathes 
+* editorial support 
+* extra things
 
 ## Configuration 
 
