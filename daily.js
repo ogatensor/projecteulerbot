@@ -10,11 +10,12 @@ async function getDailyProblem() {
     
     // retrieve problem from ProjectEuler    
     console.log(`
-    (@___@)/kimikoProblemBotv1:
-    [RunningTask] => Fetching Project Euler Problem: # ${number}
+(@___@)/kimikoProblemBotv1:
+[RunningTask] => Fetching Project Euler Problem: # ${number}
     `);
     
     const p = await axios.get(`${url}${number}`).then((problem) => { 
+        console.log(problem)
         const dom = new JSDOM(problem.data); 
         const desc = dom.window.document.getElementsByClassName("problem_content");
 
