@@ -1,24 +1,24 @@
-class Logger { 
-    constructor() { 
-        this.level = { 
-            info: null,
-            warning: 'warning',
-            error: 'error'
-        };
+class Logger {
+  constructor() {
+    this.level = {
+      info: null,
+      warning: 'warning',
+      error: 'error',
+    };
 
-        this.data = { 
-            message: null
-        }
-    }
+    this.data = {
+      message: null,
+    };
+  }
 
-    publish(message) {
-        this.data.message = message; 
+  publish(message) {
+    this.data.message = message;
 
-        return console.log(`
+    return console.log(`
         (@___@)/kimikoProblemBotv1:
         ${this.data.message}
         `);
-    }
+  }
 }
 
 module.Logger = Logger;
