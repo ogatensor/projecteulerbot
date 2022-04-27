@@ -1,7 +1,5 @@
 ## projecteulerbot 
-This bot generates daily competitive programming/faang interview style problem sets. 
-
-Ideally this will be extended to a more comprehensive app that ramps up users based on pedagogical best practices. 
+This bot generates daily competitive programming/faang interview style problem sets. Ideally, this will be extended to a more comprehensive app that ramps up users based on pedagogical best practices. 
 
 Current problem sources supported: 
 * projecteuler.net  
