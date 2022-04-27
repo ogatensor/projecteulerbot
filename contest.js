@@ -16,7 +16,7 @@ async function AtCoderContestProblem() {
       console.log(`(@___@)/kimikoProblemBotv1:
  [RunningTask] => Fetching AtCoder.jp Problem: # ${contestPath}`);
     const p = await axios.get(`${url}`).then((problem) => { 
-        console.log(problem.data); 
+       // console.log(problem.status); 
        // const dom = new JSDOM(problem.data); 
        // let desc = dom.window.document.getElementsByClassName("problem_content");
        // console.log(desc[0].innerHTML);
