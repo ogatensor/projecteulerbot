@@ -11,9 +11,14 @@ Current problem sources supported:
 * hackerrank 
 * educative 
 * custom archivals 
-* topcoder SRM mathes 
+* topcoder SRM matches 
 * editorial support 
 * extra things
+* create server 
+* render problem sets 
+* grafana integration 
+* signal and discord integration 
+* serverless architecture flesh out 
 
 ## Configuration 
 
