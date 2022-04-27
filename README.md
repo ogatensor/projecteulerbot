@@ -34,6 +34,10 @@ node index.js
 
 ## example output (project euler response object with desc in HTML)
 ```
+(@___@)/kimikoProblemBotv1:
+[RunningTask] => Fetching Project Euler Problem: # 733
+[RunningTask] => Fetchiong AtCoder Contest Problem: # arc131_b
+
 <p>
 For every integer $n&gt;1$, the family of functions $f_{n,a,b}$ is defined
 by  <br>
@@ -49,4 +53,5 @@ $F(10^7)\equiv 638042271 \mod 1\,000\,000\,007$.<br></p>
 Find $F(10^{14})$.<br>
 Give your answer modulo $1\,000\,000\,007$.
 </p>
+...
 ```
